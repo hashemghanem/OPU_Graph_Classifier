@@ -47,8 +47,8 @@ def run_grid(z_train, z_test, y_train, y_test, C_range = 10. ** np.arange(-2, 6)
 
 
 # setting up the parameters k, m , s, r, S_k
-k, features_num,samples_num= 5 ,5000, 1           
-r= 1+np.linspace(0.2,2,4)
+k, features_num,samples_num= 6 ,5000, 2000        
+r= 1+np.linspace(0.2,1.3,4)
 sampler_type= "simple_random_sampling"                      
 
 # creating an instance of the required sampler
@@ -76,6 +76,7 @@ fmt='%.0f%%'
 yticks=mtic.FormatStrFormatter(fmt)
 ax.yaxis.set_major_formatter(yticks)
 plt. plot(r, accur, 's', linewidth=2.8)
+np.savetxt('accur.csv', accur, delimiter=',')
 plt.xlabel('Inter-class similarity parameter (r)')
 plt.ylabel('Test accuracy')
 plt.grid()

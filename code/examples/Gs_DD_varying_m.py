@@ -48,7 +48,7 @@ def run_grid(z_train, z_test, y_train, y_test, C_range = 10. ** np.arange(-2, 6)
 
 
 # setting up the parameters k, m , s, r, S_k
-k, features_num,samples_num= 7 ,np.array([100, 5000]), 4000 
+k, features_num,samples_num= 7 ,np.array([100,500, 1000, 5000]), 4000 
 sigma_Gs=0.1
 sampler_type= "random_walk_induced_graph_sampling"                      
 
