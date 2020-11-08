@@ -4,12 +4,13 @@
 The package we built in this work is available in the directory: code/RF_modules
 
 
-To run one of the example codes in code/examples directory (let's say example_name.py), place yourself 
-in code directory and run the example from there, i.e. run the following command from code directory:
+To run one of the example codes in code/examples directory (let's say example_name.py), place yourself in code directory and run the example from there, i.e. run the following command from code directory:
 
 python -m examples.example_name
 
-In all examples, we use one of the techniques (OPU RFs, Gs RFs, GS+EIG RFs) to represent graphs, then a linear SVM model is used to learn how to classify them. 
+In all examples, we use one of the techniques (OPU RFs, Gs RFs, GS+EIG RFs) to represent graphs, then a linear SVM model is used to learn how to classify them.
+
+**Note:** In order to execute the codes, you must have access to [LightOn](https://docs.lighton.ai/) servers. Pleaser refer to the this guiding [tutorial](https://community.lighton.ai/t/how-to-use-lighton-cloud-general-guide/20) to help you do that correctly.
 
 
 ## Available examples:
