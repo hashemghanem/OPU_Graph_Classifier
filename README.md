@@ -4,7 +4,7 @@
 The package we built in this work is available in the directory: <code/RF_modules>
 
 
-To run one of the example codes in <code/examples> directory (let's say example_name.py), place yourself in code directory and run the example from there, i.e. run the following command from <code> directory:
+To run one of the example codes in <code/examples> directory (let's say example_name.py), place yourself in code directory and run the example from there, i.e. run the following command from the <code/> directory:
 
 python -m examples.example_name
 
